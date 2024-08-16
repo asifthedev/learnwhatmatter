@@ -5,8 +5,8 @@ import os
 
 # Environment setup
 os.environ['OPENAI_MODEL_NAME'] = 'gpt-4-turbo'
-os.environ['OPENAI_API_KEY'] = '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'
-os.environ["SERPER_API_KEY"] = 'e99fbcb9e3705c51ce0b8fec4553f31140f076ca'
+os.environ['OPENAI_API_KEY'] = st.secrets('OPENAI_API_KEY')
+os.environ["SERPER_API_KEY"] = st.secrets('SERPER_API_KEY')
 
 # Tools
 searching_tool = SerperDevTool()
