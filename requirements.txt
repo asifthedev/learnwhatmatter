@@ -149,7 +149,7 @@ python-rapidjson==1.20
 pytube==15.0.0
 PyYAML==6.0.2
 ratelimiter==1.2.0.post0
-regex==2024.7.24
+regex
 requests==2.32.3
 requests-oauthlib==2.0.0
 retry==0.9.2
@@ -172,7 +172,7 @@ starlette==0.38.2
 sympy==1.13.2
 tabulate==0.9.0
 tenacity==8.5.0
-tiktoken==0.7.0
+tiktoken
 tokenizers==0.20.0
 tqdm==4.66.5
 trio==0.26.2
