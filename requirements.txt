@@ -1,6 +1,3 @@
-Here's the list with the version numbers removed:
-
-```
 aiohappyeyeballs
 aiohttp
 aiosignal
@@ -198,4 +195,3 @@ youtube-transcript-api
 yt-dlp
 zipp
 crewai
-```
