@@ -12,7 +12,7 @@ We utilized the **CrewAI** framework alongside **OPENAI's API** to construct a M
 - Utilizes OpenAI's GPT-4 model for advanced natural language processing
 - Implements web scraping and search capabilities using SerperDev and custom tools
 - Analyzes job descriptions to identify common technical skills
-- Presents results in a clean, Markdown-formatted
+- Presents results in a clean, Markdown-formatted table
 ### How It Works:
 
 1. User inputs a job title through the Streamlit interface
