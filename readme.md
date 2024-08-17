@@ -5,7 +5,7 @@ One common mistake beginners make when learning a new skill is not researching w
 
 ## Solution
 
-We utilized the **CrewAI** framework alongside **OPENAI's API** to construct a Multi-Agent System. This system searches Google and scrapes popular job posting websites for job descriptions related to a specific role. It then analyzes the **common skills** that are in demand across all available jobs in the market. These are the skills you should prioritize, as they are sought after by most companies.
+We utilized the **CrewAI** framework alongside **OPENAI's API** to construct a Multi-Agent System. This system searches Google and scrapes popular job posting websites for job descriptions related to a specific role. It then analyzes the **common skills** across all available jobs in the market. These are the skills you should prioritize, as they are sought after by most companies.
 
 ### Key Features:
 
