@@ -19,7 +19,7 @@ We utilized the **CrewAI** framework alongside **OPENAI's API** to construct a M
 2. The Job Analyst agent searches and scrapes job descriptions
 3. The Requirement Analyst agent identifies common skills across job postings
 4. The Quality Assurance agent ensures proper Markdown formatting
-5. Results are displayed in the Streamlit app
+5. Results are displayed in markdown format
 
 ## Code Breakdown
 
