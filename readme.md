@@ -55,16 +55,7 @@ web_scraper = ScrapeWebsiteTool()
 - `SerperDevTool` is a search tool for finding information on the web.
 - `ScrapeWebsiteTool` is used to scrape data from websites.
 
-### 3. Streamlit UI Setup
-
-```python
- with st.spinner('Agent is performing the detail market search!'):
-        # Agent tasks will be executed here
-```
-
-**UI Setup:** `Streamlit` is used to create a simple UI with a text input for the job title and a button to start the process. When the button is clicked, a spinner is displayed to indicate that the agents are working on the tasks.
-
-### 4. Agent Definitions
+### 3. Agent Definitions
 
 ```python
 job_analyst = Agent(
@@ -109,7 +100,7 @@ quality_assurance = Agent(
 - `quality_assurance`: Ensures the final output is properly formatted in Markdown.
 Each agent has a specific role, goal, and backstory to define their purpose and how they contribute to the tasks.
 
-### 5. Task Definitions
+### 4. Task Definitions
 
 ```python
 search_scrape = Task(
@@ -151,7 +142,7 @@ assuring_quality = Task(
 - `find_common_skills`: Task for `requirement_analyst` to analyze the job descriptions and identify common skills.
 - `assuring_quality`: Task for `quality_assurance` to validate the Markdown formatting of the output.
 
-### 6. Crew Setup and Execution
+### 5. Crew Setup and Execution
 
 ```python
 # Crew setup
