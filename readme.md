@@ -185,3 +185,8 @@ st.markdown(result, unsafe_allow_html=True)
 ---
 
 © 2024 Asif Shahzad. All rights reserved.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer"/>
+</p>
+
