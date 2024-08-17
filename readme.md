@@ -1,11 +1,11 @@
  <img width="100%" src="https://github.com/asifthedev/mulit-agent-skills-analyst/blob/main/images/header.png" alt=""></a>
 ## Problem
 
-One big mistake that we make as beginners before learning a new skill is not researching what to learn and what not to. As a result, we end up wasting a lot of our precious time on skills that are not important according to the job market's demands.
+One common mistake beginners make when learning a new skill is not researching what to learn and what not to. As a result, we end up wasting a lot of our precious time on skills that may not be in high demand in the job market.
 
 ## Solution
 
-We used the **CrewAI** framework and **OPENAI's API** to build a Multi-Agent System that searches Google and scrapes popular job posting websites for job descriptions for the given role. It then analyzes the **common skills** across all the jobs available in the market. These are the skills you should focus on because most companies demand them.
+We utilized the **CrewAI** framework alongside **OPENAI's API** to construct a Multi-Agent System. This system searches Google and scrapes popular job posting websites for job descriptions related to a specific role. It then analyzes the **common skills** that are in demand across all available jobs in the market. These are the skills you should prioritize, as they are sought after by most companies.
 
 ### Key Features:
 
