@@ -1,8 +1,3 @@
-  <img width="100%" src="https://github.com/asifthedev/mulit-agent-skills-analyst/blob/main/images/header.png" alt=""></a>
-# Multi Agent Job Market Analyzer
-
-Powered by **CrewAI** and **OPENAI**
-
 ## Problem
 
 One big mistake that we make as beginners before learning a new skill is not researching what to learn and what not to. As a result, we end up wasting a lot of our precious time on skills that are not important according to the job market's demands.
