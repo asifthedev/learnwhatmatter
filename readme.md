@@ -1,4 +1,4 @@
-  <img width="100%" src="https://i.ibb.co/1qNmb9y/SPEAK-LIKE-A-PRO-1.png" alt=""></a>
+  <img width="100%" src="https://github.com/asifthedev/mulit-agent-skills-analyst/blob/main/images/header.png" alt=""></a>
 # Multi Agent Job Market Analyzer
 
 Powered by **CrewAI** and **OPENAI**
