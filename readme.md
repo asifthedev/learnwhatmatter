@@ -12,9 +12,7 @@ We utilized the **CrewAI** framework alongside **OPENAI's API** to construct a M
 - Utilizes OpenAI's GPT-4 model for advanced natural language processing
 - Implements web scraping and search capabilities using SerperDev and custom tools
 - Analyzes job descriptions to identify common technical skills
-- Presents results in a clean, Markdown-formatted table
-- Built with Streamlit for an interactive user interface
-
+- Presents results in a clean, Markdown-formatted
 ### How It Works:
 
 1. User inputs a job title through the Streamlit interface
@@ -30,7 +28,6 @@ We utilized the **CrewAI** framework alongside **OPENAI's API** to construct a M
 ```python
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import SerperDevTool, ScrapeWebsiteTool
-import streamlit as st
 import os
 
 # Environment setup
@@ -42,7 +39,6 @@ os.environ["SERPER_API_KEY"] = 'your_serper_api_key'
 **Imports:**
 - `Agent`, `Task`, `Crew`, and `Process` are imported from the `crewai` library to define agents, tasks, and their orchestration.
 - `SerperDevTool` and `ScrapeWebsiteTool` are tools from `crewai_tools` for web searching and scraping.
-- `streamlit` is imported to create a simple web interface for user interaction.
 - `os` is used for setting environment variables like API keys.
 
 **Environment Setup:** The environment variables are set for the OpenAI API and the Serper API, which are used by the tools to access the GPT-4 model and perform web searches.
@@ -62,11 +58,7 @@ web_scraper = ScrapeWebsiteTool()
 ### 3. Streamlit UI Setup
 
 ```python
-# Streamlit UI
-job_title = st.text_input('Enter your job title?')
-
-if st.button('Start Searching Market'):
-    with st.spinner('Agent is performing the detail market search!'):
+ with st.spinner('Agent is performing the detail market search!'):
         # Agent tasks will be executed here
 ```
 
@@ -174,8 +166,7 @@ crew = Crew(
 # Kick off the crew process
 result = crew.kickoff(inputs={'job_title': job_title})
 
-# Display the result in Streamlit
-st.markdown(result, unsafe_allow_html=True)
+print(result)
 ```
 
 **Crew Setup:** A `Crew` is created with the three agents and their respective tasks. The process is set to `Process.sequential`, meaning tasks are executed one after the other.
