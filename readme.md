@@ -15,7 +15,7 @@ We utilized the **CrewAI** framework alongside **OPENAI's API** to construct a M
 - Presents results in a clean, Markdown-formatted table
 ### How It Works:
 
-1. User inputs a job title through the Streamlit interface
+1. The user inputs a job title 
 2. The Job Analyst agent searches and scrapes job descriptions
 3. The Requirement Analyst agent identifies common skills across job postings
 4. The Quality Assurance agent ensures proper Markdown formatting
